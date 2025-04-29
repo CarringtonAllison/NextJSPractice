@@ -1,7 +1,12 @@
 import React from "react";
+import Link from "next/link";
 
 const UsersPage = () => {
-  return <div>UsersPage</div>;
+  return (
+    <>
+      <Link href="/users/new">New Users</Link>
+    </>
+  );
 };
 
 export default UsersPage;
